@@ -1,0 +1,83 @@
+body {
+  font-family: "open sans", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  background-image: url(./images/buildings.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: "bad script", cursive;
+  margin: 0;
+  font-weight: normal;
+}
+
+/* PAGE HEADER
+-----------------------------------------*/
+header {
+  background: #cecccc; /* or use your own colour palette */
+}
+
+/* LOVES - things I love
+-----------------------------------------*/
+.loves {
+  background: #9d6381;
+  text-align: center;
+}
+
+.about {
+  color: white;
+  background: rgba(92, 66, 77, 0.9);
+}
+
+/* FOOTER - contact info
+-----------------------------------------*/
+footer {
+  background: #0f110c;
+  color: #cecccc;
+  text-align: center;
+}
+
+a {
+  color: #9d6381;
+}
+
+header,
+section,
+footer {
+  padding: 100px 150px;
+}
+
+header h1 {
+  font-size: 100px;
+}
+
+header h2 {
+  font-size: 32px;
+}
+
+strong {
+  color: #9d6381;
+}
+
+.profile-img {
+  float: right;
+  margin-left: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
